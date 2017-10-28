@@ -1,19 +1,19 @@
 {
   "name": "generator-rustmc",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "rust module cli",
-  "homepage": "",
+  "homepage": "https://github.com/pandawing/rust-module-boilerplate",
   "author": {
     "name": "sanemat",
     "email": "o.gata.ken@gmail.com",
-    "url": "sane.jp"
+    "url": "http://sane.jp"
   },
   "files": [
     "generators"
   ],
   "main": "generators/index.js",
   "keywords": [
-    "",
+    "rust",
     "yeoman-generator"
   ],
   "devDependencies": {
@@ -63,6 +63,6 @@
       "prettier"
     ]
   },
-  "repository": "pandawing/generator-rustmc",
+  "repository": "pandawing/rust-module-boilerplate",
   "license": "MIT"
 }

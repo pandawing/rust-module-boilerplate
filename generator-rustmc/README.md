@@ -25,7 +25,7 @@ yo rustmc
 
 ## License
 
-MIT © [sanemat](sane.jp)
+MIT © [sanemat](http://sane.jp)
 
 
 [npm-image]: https://badge.fury.io/js/generator-rustmc.svg
