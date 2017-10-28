@@ -1,0 +1,26 @@
+[package]
+authors = ["Sanemat <o.gata.ken@gmail.com>"]
+categories = ["development-tools"]
+description = "checkstyle formatter."
+include = [
+    "src/**/*",
+    "Cargo.toml",
+    "changelog.md",
+    "readme.md",
+    "license-apache",
+    "license-mit",
+]
+keywords = ["checkstyle"]
+license = "MIT/Apache-2.0"
+name = "<%= moduleName %>"
+repository = "https://github.com/packsaddle/rust-checkstyle_formatter"
+version = "0.0.1"
+
+[badges.appveyor]
+project_name = "sanemat/rust-checkstyle_formatter"
+repository = "packsaddle/rust-checkstyle_formatter"
+
+[badges.travis-ci]
+repository = "packsaddle/rust-checkstyle_formatter"
+
+[dependencies]
