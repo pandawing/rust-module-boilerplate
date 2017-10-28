@@ -1,5 +1,5 @@
 # generator-rustm [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> rust module cli
+> rust module
 
 ## Installation
 

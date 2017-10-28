@@ -1,7 +1,7 @@
 {
   "name": "generator-rustm",
   "version": "0.0.1",
-  "description": "rust module cli",
+  "description": "rust module",
   "homepage": "https://github.com/pandawing/rust-module-boilerplate",
   "author": {
     "name": "sanemat",
