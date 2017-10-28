@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "generator-generator": "^4.0.0",
+    "yo": "^2.0.0"
+  }
+}
