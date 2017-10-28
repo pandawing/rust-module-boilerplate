@@ -1,19 +1,19 @@
-# generator-rustmc [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# generator-rustm [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > rust module cli
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-rustmc using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-rustm using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-rustmc
+npm install -g generator-rustm
 ```
 
 Then generate your new project:
 
 ```bash
-yo rustmc
+yo rustm
 ```
 
 ## Getting To Know Yeoman
@@ -28,9 +28,9 @@ yo rustmc
 MIT © [sanemat](http://sane.jp)
 
 
-[npm-image]: https://badge.fury.io/js/generator-rustmc.svg
-[npm-url]: https://npmjs.org/package/generator-rustmc
-[travis-image]: https://travis-ci.org/pandawing/generator-rustmc.svg?branch=master
-[travis-url]: https://travis-ci.org/pandawing/generator-rustmc
-[daviddm-image]: https://david-dm.org/pandawing/generator-rustmc.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/pandawing/generator-rustmc
+[npm-image]: https://badge.fury.io/js/generator-rustm.svg
+[npm-url]: https://npmjs.org/package/generator-rustm
+[travis-image]: https://travis-ci.org/pandawing/generator-rustm.svg?branch=master
+[travis-url]: https://travis-ci.org/pandawing/generator-rustm
+[daviddm-image]: https://david-dm.org/pandawing/generator-rustm.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/pandawing/generator-rustm

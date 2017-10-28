@@ -1,5 +1,5 @@
 {
-  "name": "generator-rustmc",
+  "name": "generator-rustm",
   "version": "0.0.1",
   "description": "rust module cli",
   "homepage": "https://github.com/pandawing/rust-module-boilerplate",
