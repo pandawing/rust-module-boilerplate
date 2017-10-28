@@ -40,7 +40,8 @@
   "scripts": {
     "prepublish": "nsp check",
     "pretest": "eslint .",
-    "test": "jest"
+    "test": "jest",
+    "changelog": "conventional-changelog -p angular -i changelog.md"
   },
   "eslintConfig": {
     "extends": [
