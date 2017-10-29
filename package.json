@@ -11,5 +11,8 @@
     "unique-string": "^1.0.0",
     "yo": "^2.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./run-test.js"
+  }
 }
