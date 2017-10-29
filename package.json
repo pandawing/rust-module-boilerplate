@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "copy-concurrently": "^1.0.5",
+    "cross-spawn": "^5.1.0",
     "generator-generator": "^4.0.0",
     "globby": "^6.1.0",
     "move-concurrently": "^1.0.1",
@@ -9,5 +10,9 @@
     "temp-dir": "^1.0.0",
     "unique-string": "^1.0.0",
     "yo": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./run-test.js"
   }
 }
