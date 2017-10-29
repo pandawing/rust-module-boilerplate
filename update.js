@@ -4,6 +4,7 @@ const path = require('path');
 const copy = require('copy-concurrently');
 const uniqueString = require('unique-string');
 const tempDir = require('temp-dir');
+const move = require('move-concurrently');
 
 const getPath = () => path.join(tempDir, uniqueString());
 
@@ -17,6 +18,8 @@ Promise.resolve().then(() => {
   return pify(rimraf)(copyDest);
 }).then(() => {
   console.log(`removed ${copyDest}`);
+  return move(path.join(tempDest, 'package.json'), path.join(tempDest, '_package.json'));
+}).then(() => {
   return copy(tempDest, copyDest);
 }).then(() => {
   console.log('completed');
