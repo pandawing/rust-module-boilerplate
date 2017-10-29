@@ -11,6 +11,6 @@ describe('generator-rustmc:app', () => {
   });
 
   it('creates files', () => {
-    assert.file(['dummyfile.txt']);
+    assert.file([path.join('src', 'main.rs')]);
   });
 });

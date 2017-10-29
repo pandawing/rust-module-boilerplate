@@ -26,10 +26,7 @@ module.exports = class extends Generator {
   }
 
   writing() {
-    this.fs.copy(
-      this.templatePath('dummyfile.txt'),
-      this.destinationPath('dummyfile.txt')
-    );
+    this.fs.copy(this.templatePath('src/main.rs'), this.destinationPath('src/main.rs'));
   }
 
   install() {
