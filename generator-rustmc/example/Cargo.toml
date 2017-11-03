@@ -5,7 +5,7 @@ categories = [
     "command-line-utilities",
     "development-tools",
 ]
-description = "git via https."
+description = "My hunky-dory module"
 include = [
     "src/**/*",
     "Cargo.toml",
@@ -17,17 +17,17 @@ include = [
 keywords = ["git"]
 license = "MIT/Apache-2.0"
 name = "example"
-repository = "https://github.com/packsaddle/rust-git_httpsable_cli/"
+repository = "https://github.com/sanemat/example/"
 version = "0.1.0"
 
 [[bin]]
-name = "git-httpsable"
+name = "example"
 path = "src/main.rs"
 [badges.appveyor]
-project_name = "sanemat/rust-git-httpsable-cli"
-repository = "packsaddle/rust-git_httpsable_cli"
+project_name = "sanemat/example"
+repository = "sanemat/example"
 
 [badges.travis-ci]
-repository = "packsaddle/rust-git_httpsable_cli"
+repository = "sanemat/example"
 
 [dependencies]
