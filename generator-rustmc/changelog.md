@@ -1,3 +1,14 @@
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/pandawing/rust-module-boilerplate/compare/v0.1.0...v0.2.0) (2017-11-03)
+
+
+### Features
+
+* **command:** use command name ([962e88d](https://github.com/pandawing/rust-module-boilerplate/commit/962e88d))
+* **crate:** undescored crate name ([b2cecfe](https://github.com/pandawing/rust-module-boilerplate/commit/b2cecfe))
+
+
+
 <a name="0.1.0"></a>
 # [0.1.0](https://github.com/pandawing/rust-module-boilerplate/compare/v0.0.1...v0.1.0) (2017-11-03)
 
