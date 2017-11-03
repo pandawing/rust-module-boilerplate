@@ -20,4 +20,4 @@ Do not edit `generator-rustm[c]/generators/app/templates` directly.
 
 ## License
 
-MIT/Apache-2.0 © [Sanemat](sane.jp)
+MIT/Apache-2.0 © [Sanemat](http://sane.jp)
