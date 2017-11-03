@@ -21,7 +21,7 @@ repository = "https://github.com/<%= githubUsername %>/<%= repoName %>/"
 version = "0.1.0"
 
 [[bin]]
-name = "<%= moduleName %>"
+name = "<%= commandName %>"
 path = "src/main.rs"
 [badges.appveyor]
 project_name = "<%= githubUsername %>/<%= repoName %>"

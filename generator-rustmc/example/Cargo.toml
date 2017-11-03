@@ -5,7 +5,7 @@ categories = [
     "command-line-utilities",
     "development-tools",
 ]
-description = "My first-class module"
+description = "My geometric module"
 include = [
     "src/**/*",
     "Cargo.toml",
@@ -17,17 +17,17 @@ include = [
 keywords = ["git"]
 license = "MIT/Apache-2.0"
 name = "example_foo"
-repository = "https://github.com/sanemat/example_foo/"
+repository = "https://github.com/username/example_foo/"
 version = "0.1.0"
 
 [[bin]]
-name = "example_foo"
+name = "example-foo"
 path = "src/main.rs"
 [badges.appveyor]
-project_name = "sanemat/example_foo"
-repository = "sanemat/example_foo"
+project_name = "username/example_foo"
+repository = "username/example_foo"
 
 [badges.travis-ci]
-repository = "sanemat/example_foo"
+repository = "username/example_foo"
 
 [dependencies]
