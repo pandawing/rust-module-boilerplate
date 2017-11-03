@@ -1,8 +1,8 @@
 {
   "generator-rustmc": {
     "promptValues": {
-      "githubUsername": "sanemat",
-      "website": "http://sane.jp"
+      "githubUsername": "username",
+      "website": "http://example.com"
     }
   }
 }
