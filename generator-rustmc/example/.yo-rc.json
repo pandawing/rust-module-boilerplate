@@ -2,7 +2,7 @@
   "generator-rustmc": {
     "promptValues": {
       "githubUsername": "sanemat",
-      "website": "https://example.com"
+      "website": "http://sane.jp"
     }
   }
 }
