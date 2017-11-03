@@ -17,30 +17,33 @@ module.exports = class extends Generator {
   }
 
   init() {
-    return this.prompt([{
-      name: 'moduleName',
-      message: 'What do you want to name your module?',
-      default: _s.slugify(this.appname),
-      filter: x => utils.slugifyPackageName(x)
-    }, {
-      name: 'moduleDescription',
-      message: 'What is your module description?',
-      default: `My ${superb()} module`
-    }, {
-      name: 'githubUsername',
-      message: 'What is your GitHub username?',
-      store: true,
-      validate: x => x.length > 0 ? true : 'You have to provide a username',
-      when: () => !this.options.org
-    }, {
-      name: 'website',
-      message: 'What is the URL of your website?',
-      store: true,
-      validate: x => x.length > 0 ? true : 'You have to provide a website URL',
-      filter: x => normalizeUrl(x)
-    }]).then(props => {
-      const or = (option, prop) => this.options[option] === undefined ? props[prop || option] : this.options[option];
-
+    return this.prompt([
+      {
+        name: 'moduleName',
+        message: 'What do you want to name your module?',
+        default: _s.slugify(this.appname),
+        filter: x => utils.slugifyPackageName(x)
+      },
+      {
+        name: 'moduleDescription',
+        message: 'What is your module description?',
+        default: `My ${superb()} module`
+      },
+      {
+        name: 'githubUsername',
+        message: 'What is your GitHub username?',
+        store: true,
+        validate: x => (x.length > 0 ? true : 'You have to provide a username'),
+        when: () => !this.options.org
+      },
+      {
+        name: 'website',
+        message: 'What is the URL of your website?',
+        store: true,
+        validate: x => (x.length > 0 ? true : 'You have to provide a website URL'),
+        filter: x => normalizeUrl(x)
+      }
+    ]).then(props => {
       const repoName = utils.repoName(props.moduleName);
 
       const tpl = {
@@ -52,16 +55,14 @@ module.exports = class extends Generator {
         name: this.user.git.name(),
         email: this.user.git.email(),
         website: props.website,
-        humanizedWebsite: humanizeUrl(props.website),
+        humanizedWebsite: humanizeUrl(props.website)
       };
 
       const mv = (from, to) => {
         this.fs.move(this.destinationPath(from), this.destinationPath(to));
       };
 
-      this.fs.copyTpl([
-        `${this.templatePath()}/**`,
-      ], this.destinationPath(), tpl);
+      this.fs.copyTpl([`${this.templatePath()}/**`], this.destinationPath(), tpl);
 
       mv('__appveyor.yml', '.appveyor.yml');
       mv('__conventional-changelog.context.js', '.conventional-changelog.context.js');
@@ -74,6 +75,6 @@ module.exports = class extends Generator {
     this.spawnCommandSync('git', ['init']);
   }
   install() {
-    this.installDependencies({bower: false});
+    this.installDependencies({ bower: false });
   }
 };
