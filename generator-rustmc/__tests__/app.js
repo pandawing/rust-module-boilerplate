@@ -5,9 +5,11 @@ const helpers = require('yeoman-test');
 
 describe('generator-rustmc:app', () => {
   beforeAll(() => {
-    return helpers
-      .run(path.join(__dirname, '../generators/app'))
-      .withPrompts({ someAnswer: true });
+    return helpers.run(path.join(__dirname, '../generators/app')).withPrompts({
+      moduleName: 'test',
+      githubUsername: 'test',
+      website: 'test.com'
+    });
   });
 
   it('creates files', () => {

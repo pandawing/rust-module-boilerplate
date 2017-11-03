@@ -26,11 +26,17 @@
     "jest-cli": "^21.0.0",
     "nsp": "^2.6.3",
     "prettier": "^1.7.0",
+    "run-yo": "^1.0.1",
     "yeoman-assert": "^3.1.0",
     "yeoman-test": "^1.7.0"
   },
   "dependencies": {
     "chalk": "^2.1.0",
+    "humanize-url": "^1.0.1",
+    "is-scoped": "^1.0.0",
+    "normalize-url": "^1.9.1",
+    "superb": "^2.0.0",
+    "underscore.string": "^3.3.4",
     "yeoman-generator": "^2.0.1",
     "yosay": "^2.0.1"
   },
@@ -38,8 +44,10 @@
     "testEnvironment": "node"
   },
   "scripts": {
-    "prepublish": "nsp check",
+    "prepare": "nsp check",
     "pretest": "eslint .",
+    "lint": "eslint .",
+    "example": "run-yo",
     "test": "jest",
     "changelog": "conventional-changelog -p angular -i changelog.md"
   },
