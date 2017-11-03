@@ -21,8 +21,8 @@ module.exports = class extends Generator {
       {
         name: 'moduleName',
         message: 'What do you want to name your module?',
-        default: _s.slugify(this.appname),
-        filter: x => utils.slugifyPackageName(x)
+        default: _s.underscored(this.appname),
+        filter: x => utils.underscoredPackageName(x)
       },
       {
         name: 'moduleDescription',

@@ -8,7 +8,7 @@ environment:
     RUST_VERSION: stable
 
     # TODO Update this to match the name of your project.
-    CRATE_NAME: example
+    CRATE_NAME: example_foo
 
   # TODO These are all the build jobs. Adjust as necessary. Comment out what you
   # don't need
@@ -62,7 +62,7 @@ deploy:
   # - Encrypt it. Go to https://ci.appveyor.com/tools/encrypt
   # - Paste the output down here
   auth_token:
-    secure: cmXHA+b2NNXi+xOy6UJAInjWu9nN9kJhRKhkKkNAZ51YL0r1xxK32wZTzkwkrZa7
+    secure: secureSECUREsecureSECUREsecureSECUREsecureSECUREsecureSECURE
   description: ''
   on:
     # TODO Here you can pick which targets will generate binary releases
