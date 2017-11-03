@@ -47,7 +47,7 @@
     "lint": "eslint .",
     "example": "run-yo",
     "test": "jest",
-    "changelog": "conventional-changelog -p angular -i changelog.md"
+    "changelog": "conventional-changelog -p angular -i changelog.md --same-file"
   },
   "eslintConfig": {
     "extends": [
