@@ -50,6 +50,7 @@ module.exports = class extends Generator {
       }
     ]).then(props => {
       const repoName = utils.repoName(props.moduleName);
+      const appveyorRepoName = utils.repoName(_s.slugify(props.moduleName));
 
       const tpl = {
         moduleName: props.moduleName,
@@ -58,6 +59,7 @@ module.exports = class extends Generator {
         camelModuleName: _s.camelize(repoName),
         githubUsername: this.options.org || props.githubUsername,
         repoName,
+        appveyorRepoName,
         name: this.user.git.name(),
         email: this.user.git.email(),
         website: props.website,

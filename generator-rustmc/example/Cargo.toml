@@ -5,7 +5,7 @@ categories = [
     "command-line-utilities",
     "development-tools",
 ]
-description = "My geometric module"
+description = "My doozie module"
 include = [
     "src/**/*",
     "Cargo.toml",
