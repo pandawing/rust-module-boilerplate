@@ -1,11 +1,11 @@
 [package]
-authors = ["Sanemat <o.gata.ken@gmail.com>"]
+authors = ["<%= name %> <<%= email %>>"]
 categories = [
     "command-line-interface",
     "command-line-utilities",
     "development-tools",
 ]
-description = "git via https."
+description = "<%= moduleDescription %>"
 include = [
     "src/**/*",
     "Cargo.toml",
@@ -17,17 +17,17 @@ include = [
 keywords = ["git"]
 license = "MIT/Apache-2.0"
 name = "<%= moduleName %>"
-repository = "https://github.com/packsaddle/rust-git_httpsable_cli/"
+repository = "https://github.com/<%= githubUsername %>/<%= repoName %>/"
 version = "0.1.0"
 
 [[bin]]
-name = "git-httpsable"
+name = "<%= moduleName %>"
 path = "src/main.rs"
 [badges.appveyor]
-project_name = "sanemat/rust-git-httpsable-cli"
-repository = "packsaddle/rust-git_httpsable_cli"
+project_name = "<%= githubUsername %>/<%= repoName %>"
+repository = "<%= githubUsername %>/<%= repoName %>"
 
 [badges.travis-ci]
-repository = "packsaddle/rust-git_httpsable_cli"
+repository = "<%= githubUsername %>/<%= repoName %>"
 
 [dependencies]
