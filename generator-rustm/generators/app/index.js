@@ -25,11 +25,6 @@ module.exports = class extends Generator {
         filter: x => utils.underscoredPackageName(x)
       },
       {
-        name: 'commandName',
-        message: 'What do you want to name your command?',
-        default: _s.slugify(this.appname)
-      },
-      {
         name: 'moduleDescription',
         message: 'What is your module description?',
         default: `My ${superb()} module`
@@ -54,7 +49,6 @@ module.exports = class extends Generator {
 
       const tpl = {
         moduleName: props.moduleName,
-        commandName: props.commandName,
         moduleDescription: props.moduleDescription,
         camelModuleName: _s.camelize(repoName),
         githubUsername: this.options.org || props.githubUsername,
