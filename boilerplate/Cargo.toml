@@ -1,7 +1,7 @@
 [package]
-authors = ["Sanemat <o.gata.ken@gmail.com>"]
+authors = ["<%= name %> <<%= email %>>"]
 categories = ["development-tools"]
-description = "checkstyle formatter."
+description = "<%= moduleDescription %>"
 include = [
     "src/**/*",
     "Cargo.toml",
@@ -13,14 +13,14 @@ include = [
 keywords = ["checkstyle"]
 license = "MIT/Apache-2.0"
 name = "<%= moduleName %>"
-repository = "https://github.com/packsaddle/rust-checkstyle_formatter"
+repository = "https://github.com/<%= githubUsername %>/<%= repoName %>/"
 version = "0.0.1"
 
 [badges.appveyor]
-project_name = "sanemat/rust-checkstyle_formatter"
-repository = "packsaddle/rust-checkstyle_formatter"
+project_name = "<%= githubUsername %>/<%= appveyorRepoName %>"
+repository = "<%= githubUsername %>/<%= repoName %>"
 
 [badges.travis-ci]
-repository = "packsaddle/rust-checkstyle_formatter"
+repository = "<%= githubUsername %>/<%= repoName %>"
 
 [dependencies]
