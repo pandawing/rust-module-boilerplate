@@ -1,0 +1,26 @@
+[package]
+authors = ["Sanemat <o.gata.ken@gmail.com>"]
+categories = ["development-tools"]
+description = "My top-notch module"
+include = [
+    "src/**/*",
+    "Cargo.toml",
+    "changelog.md",
+    "readme.md",
+    "license-apache",
+    "license-mit",
+]
+keywords = ["checkstyle"]
+license = "MIT/Apache-2.0"
+name = "example_goo"
+repository = "https://github.com/username/example_goo/"
+version = "0.0.1"
+
+[badges.appveyor]
+project_name = "username/example-goo"
+repository = "username/example_goo"
+
+[badges.travis-ci]
+repository = "username/example_goo"
+
+[dependencies]
