@@ -1,0 +1,26 @@
+[package]
+authors = ["<%= name %> <<%= email %>>"]
+categories = ["development-tools"]
+description = "<%= moduleDescription %>"
+include = [
+    "src/**/*",
+    "Cargo.toml",
+    "changelog.md",
+    "readme.md",
+    "license-apache",
+    "license-mit",
+]
+keywords = ["checkstyle"]
+license = "MIT/Apache-2.0"
+name = "<%= moduleName %>"
+repository = "https://github.com/<%= githubUsername %>/<%= repoName %>/"
+version = "0.0.1"
+
+[badges.appveyor]
+project_name = "<%= githubUsername %>/<%= appveyorRepoName %>"
+repository = "<%= githubUsername %>/<%= repoName %>"
+
+[badges.travis-ci]
+repository = "<%= githubUsername %>/<%= repoName %>"
+
+[dependencies]
