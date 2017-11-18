@@ -1,6 +1,6 @@
 {
   "name": "generator-rustm",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "rust module",
   "homepage": "https://github.com/pandawing/rust-module-boilerplate",
   "author": {
