@@ -14,7 +14,7 @@ include = [
     "license-apache",
     "license-mit",
 ]
-keywords = ["rustmc"]
+keywords = ["generator-rustmc"]
 license = "MIT/Apache-2.0"
 name = "<%= moduleName %>"
 repository = "https://github.com/<%= githubUsername %>/<%= repoName %>/"
