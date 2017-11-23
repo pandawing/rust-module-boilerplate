@@ -13,7 +13,7 @@ include = [
 keywords = ["generator-rustm"]
 license = "MIT/Apache-2.0"
 name = "<%= moduleName %>"
-repository = "https://github.com/<%= githubUsername %>/<%= directoryName %>/"
+repository = "https://github.com/<%= githubUsername %>/<%= directoryName %>"
 version = "0.0.1"
 
 [badges.appveyor]
