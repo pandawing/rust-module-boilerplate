@@ -5,7 +5,7 @@ categories = [
     "command-line-utilities",
     "development-tools",
 ]
-description = "My doozie module"
+description = "My pioneering module"
 include = [
     "src/**/*",
     "Cargo.toml",
@@ -14,20 +14,20 @@ include = [
     "license-apache",
     "license-mit",
 ]
-keywords = ["git"]
+keywords = ["generator-rustmc"]
 license = "MIT/Apache-2.0"
-name = "example_foo"
-repository = "https://github.com/username/example_foo/"
+name = "example_module"
+repository = "https://github.com/user/rust-example"
 version = "0.1.0"
 
 [[bin]]
-name = "example-foo"
+name = "example"
 path = "src/main.rs"
 [badges.appveyor]
-project_name = "username/example_foo"
-repository = "username/example_foo"
+project_name = "user/rust-example"
+repository = "user/rust-example"
 
 [badges.travis-ci]
-repository = "username/example_foo"
+repository = "user/rust-example"
 
 [dependencies]

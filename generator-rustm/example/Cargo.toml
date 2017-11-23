@@ -1,7 +1,7 @@
 [package]
 authors = ["Sanemat <o.gata.ken@gmail.com>"]
 categories = ["development-tools"]
-description = "My top-notch module"
+description = "My badass module"
 include = [
     "src/**/*",
     "Cargo.toml",
@@ -10,17 +10,17 @@ include = [
     "license-apache",
     "license-mit",
 ]
-keywords = ["checkstyle"]
+keywords = ["generator-rustm"]
 license = "MIT/Apache-2.0"
-name = "example_goo"
-repository = "https://github.com/username/example_goo/"
+name = "example_module"
+repository = "https://github.com/user/rust-example"
 version = "0.0.1"
 
 [badges.appveyor]
-project_name = "username/example-goo"
-repository = "username/example_goo"
+project_name = "user/rust-example"
+repository = "user/rust-example"
 
 [badges.travis-ci]
-repository = "username/example_goo"
+repository = "user/rust-example"
 
 [dependencies]

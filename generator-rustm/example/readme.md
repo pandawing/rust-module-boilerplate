@@ -1,10 +1,10 @@
-# example_goo
+# example_module
 
 [![crates version][crates-image]][crates-url] [![Travis-CI Status][travis-image]][travis-url] [![Appveyor Status][appveyor-image]][appveyor-url] ![license][license-image]
 
-> My top-notch module
+> My badass module
 
-See [example_goo_cli](https://github.com/username/example_goo_cli) CLI for this module.
+See [example_module_cli](https://github.com/user/rust-example_cli) CLI for this module.
 
 ## Example
 
@@ -12,7 +12,7 @@ See [example_goo_cli](https://github.com/username/example_goo_cli) CLI for this 
 ## Install
 
 ```
-$ cargo install example_goo
+$ cargo install example_module
 ```
 
 ## changelog
@@ -23,10 +23,10 @@ $ cargo install example_goo
 
 MIT/Apache-2.0 © [Sanemat](example.com)
 
-[travis-url]: https://travis-ci.org/username/example_goo
-[travis-image]: https://img.shields.io/travis/username/example_goo/master.svg?style=flat-square&label=travis
-[appveyor-url]: https://ci.appveyor.com/project/username/example-goo/branch/master
-[appveyor-image]: https://img.shields.io/appveyor/ci/username/example-goo/master.svg?style=flat-square&label=appveyor
-[crates-url]: https://crates.io/crates/example_goo
-[crates-image]: https://img.shields.io/crates/v/example_goo.svg?style=flat-square
-[license-image]: https://img.shields.io/crates/l/example_goo.svg?style=flat-square
+[travis-url]: https://travis-ci.org/user/rust-example
+[travis-image]: https://img.shields.io/travis/user/rust-example/master.svg?style=flat-square&label=travis
+[appveyor-url]: https://ci.appveyor.com/project/user/rust-example/branch/master
+[appveyor-image]: https://img.shields.io/appveyor/ci/user/rust-example/master.svg?style=flat-square&label=appveyor
+[crates-url]: https://crates.io/crates/example_module
+[crates-image]: https://img.shields.io/crates/v/example_module.svg?style=flat-square
+[license-image]: https://img.shields.io/crates/l/example_module.svg?style=flat-square
