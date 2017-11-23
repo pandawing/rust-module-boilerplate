@@ -32,7 +32,6 @@
   },
   "dependencies": {
     "humanize-url": "^1.0.1",
-    "is-scoped": "^1.0.0",
     "normalize-url": "^1.9.1",
     "superb": "^2.0.0",
     "underscore.string": "^3.3.4",
