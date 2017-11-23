@@ -17,7 +17,7 @@ repository = "https://github.com/<%= githubUsername %>/<%= directoryName %>"
 version = "0.0.1"
 
 [badges.appveyor]
-project_name = "<%= githubUsername %>/<%= directoryName %>"
+project_name = "<%= githubUsername %>/<%= appveyorDirectoryName %>"
 repository = "<%= githubUsername %>/<%= directoryName %>"
 
 [badges.travis-ci]

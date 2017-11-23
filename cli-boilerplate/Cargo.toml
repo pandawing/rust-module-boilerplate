@@ -24,7 +24,7 @@ version = "0.1.0"
 name = "<%= commandName %>"
 path = "src/main.rs"
 [badges.appveyor]
-project_name = "<%= githubUsername %>/<%= directoryName %>"
+project_name = "<%= githubUsername %>/<%= appveyorDirectoryName %>"
 repository = "<%= githubUsername %>/<%= directoryName %>"
 
 [badges.travis-ci]

@@ -55,6 +55,7 @@ module.exports = class extends Generator {
         camelModuleName: _s.camelize(props.moduleName),
         githubUsername: this.options.org || props.githubUsername,
         directoryName: props.directoryName,
+        appveyorDirectoryName: _s.dasherize(props.directoryName),
         name: this.user.git.name(),
         email: this.user.git.email(),
         website: props.website,
