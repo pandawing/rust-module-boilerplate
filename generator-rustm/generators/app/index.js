@@ -4,7 +4,6 @@ const normalizeUrl = require('normalize-url');
 const humanizeUrl = require('humanize-url');
 const Generator = require('yeoman-generator');
 const _s = require('underscore.string');
-const utils = require('./utils');
 
 module.exports = class extends Generator {
   constructor(a, b) {
@@ -21,8 +20,7 @@ module.exports = class extends Generator {
       {
         name: 'moduleName',
         message: 'What do you want to name your module?',
-        default: _s.underscored(this.appname),
-        filter: x => utils.underscoredPackageName(x)
+        default: _s.slugify(this.appname)
       },
       {
         name: 'directoryName',

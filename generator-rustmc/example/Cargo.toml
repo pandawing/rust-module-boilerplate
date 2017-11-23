@@ -5,7 +5,7 @@ categories = [
     "command-line-utilities",
     "development-tools",
 ]
-description = "My pioneering module"
+description = "My epic module"
 include = [
     "src/**/*",
     "Cargo.toml",
@@ -16,18 +16,18 @@ include = [
 ]
 keywords = ["generator-rustmc"]
 license = "MIT/Apache-2.0"
-name = "example_module"
-repository = "https://github.com/user/rust-example"
+name = "example-cli"
+repository = "https://github.com/user/rust-example-cli"
 version = "0.1.0"
 
 [[bin]]
 name = "example"
 path = "src/main.rs"
 [badges.appveyor]
-project_name = "user/rust-example"
-repository = "user/rust-example"
+project_name = "user/rust-example-cli"
+repository = "user/rust-example-cli"
 
 [badges.travis-ci]
-repository = "user/rust-example"
+repository = "user/rust-example-cli"
 
 [dependencies]
