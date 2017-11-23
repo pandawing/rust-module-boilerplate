@@ -49,6 +49,7 @@ module.exports = class extends Generator {
     ]).then(props => {
       const tpl = {
         moduleName: props.moduleName,
+        externCrateModuleName: _s.underscored(props.moduleName),
         moduleDescription: props.moduleDescription,
         camelModuleName: _s.camelize(props.moduleName),
         githubUsername: this.options.org || props.githubUsername,
