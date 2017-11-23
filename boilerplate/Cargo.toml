@@ -13,14 +13,14 @@ include = [
 keywords = ["generator-rustm"]
 license = "MIT/Apache-2.0"
 name = "<%= moduleName %>"
-repository = "https://github.com/<%= githubUsername %>/<%= repoName %>/"
+repository = "https://github.com/<%= githubUsername %>/<%= directoryName %>/"
 version = "0.0.1"
 
 [badges.appveyor]
-project_name = "<%= githubUsername %>/<%= appveyorRepoName %>"
-repository = "<%= githubUsername %>/<%= repoName %>"
+project_name = "<%= githubUsername %>/<%= directoryName %>"
+repository = "<%= githubUsername %>/<%= directoryName %>"
 
 [badges.travis-ci]
-repository = "<%= githubUsername %>/<%= repoName %>"
+repository = "<%= githubUsername %>/<%= directoryName %>"
 
 [dependencies]
