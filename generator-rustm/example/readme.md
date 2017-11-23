@@ -2,12 +2,15 @@
 
 [![crates version][crates-image]][crates-url] [![Travis-CI Status][travis-image]][travis-url] [![Appveyor Status][appveyor-image]][appveyor-url] ![license][license-image]
 
-> My badass module
+> My superior module
 
 See [example-module-cli](https://github.com/user/rust-example-module-cli) CLI for this module.
 
 ## Example
 
+```rust
+extern crate example_module;
+```
 
 ## Install
 

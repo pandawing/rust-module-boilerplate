@@ -8,6 +8,9 @@ See [<%= moduleName %>-cli](https://github.com/<%= githubUsername %>/<%= directo
 
 ## Example
 
+```rust
+extern crate <%= externCrateModuleName %>;
+```
 
 ## Install
 
