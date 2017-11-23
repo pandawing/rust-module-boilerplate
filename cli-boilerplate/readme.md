@@ -1,4 +1,4 @@
-# <%= repoName %>
+# <%= moduleName %>
 
 [![crates version][crates-image]][crates-url] [![Travis-CI Status][travis-image]][travis-url] [![Appveyor Status][appveyor-image]][appveyor-url] ![license][license-image]
 
