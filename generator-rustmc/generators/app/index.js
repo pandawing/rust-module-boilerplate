@@ -30,6 +30,11 @@ module.exports = class extends Generator {
         default: _s.slugify(this.appname)
       },
       {
+        name: 'directoryName',
+        message: 'What do you want to name your directory?',
+        default: _s.slugify(this.appname)
+      },
+      {
         name: 'moduleDescription',
         message: 'What is your module description?',
         default: `My ${superb()} module`
@@ -49,17 +54,13 @@ module.exports = class extends Generator {
         filter: x => normalizeUrl(x)
       }
     ]).then(props => {
-      const repoName = utils.repoName(props.moduleName);
-      const appveyorRepoName = utils.repoName(_s.slugify(props.moduleName));
-
       const tpl = {
         moduleName: props.moduleName,
         commandName: props.commandName,
         moduleDescription: props.moduleDescription,
-        camelModuleName: _s.camelize(repoName),
+        camelModuleName: _s.camelize(props.moduleName),
         githubUsername: this.options.org || props.githubUsername,
-        repoName,
-        appveyorRepoName,
+        directoryName: props.directoryName,
         name: this.user.git.name(),
         email: this.user.git.email(),
         website: props.website,

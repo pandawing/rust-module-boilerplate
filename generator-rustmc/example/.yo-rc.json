@@ -1,7 +1,7 @@
 {
   "generator-rustmc": {
     "promptValues": {
-      "githubUsername": "username",
+      "githubUsername": "user",
       "website": "http://example.com"
     }
   }
