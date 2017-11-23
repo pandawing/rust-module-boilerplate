@@ -25,13 +25,13 @@ module.exports = class extends Generator {
         filter: x => utils.underscoredPackageName(x)
       },
       {
-        name: 'directoryName',
-        message: 'What do you want to name your directory?',
+        name: 'commandName',
+        message: 'What do you want to name your command?',
         default: _s.slugify(this.appname)
       },
       {
-        name: 'commandName',
-        message: 'What do you want to name your command?',
+        name: 'directoryName',
+        message: 'What do you want to name your directory?',
         default: _s.slugify(this.appname)
       },
       {
