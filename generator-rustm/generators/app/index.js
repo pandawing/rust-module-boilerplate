@@ -4,7 +4,6 @@ const normalizeUrl = require('normalize-url');
 const humanizeUrl = require('humanize-url');
 const Generator = require('yeoman-generator');
 const _s = require('underscore.string');
-const utils = require('./utils');
 
 module.exports = class extends Generator {
   constructor(a, b) {
