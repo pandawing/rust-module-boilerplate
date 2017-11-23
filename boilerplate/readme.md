@@ -4,7 +4,7 @@
 
 > <%= moduleDescription %>
 
-See [<%= moduleName %>_cli](https://github.com/<%= githubUsername %>/<%= directoryName %>_cli) CLI for this module.
+See [<%= moduleName %>-cli](https://github.com/<%= githubUsername %>/<%= directoryName %>-cli) CLI for this module.
 
 ## Example
 

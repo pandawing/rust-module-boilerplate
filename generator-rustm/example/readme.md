@@ -2,9 +2,9 @@
 
 [![crates version][crates-image]][crates-url] [![Travis-CI Status][travis-image]][travis-url] [![Appveyor Status][appveyor-image]][appveyor-url] ![license][license-image]
 
-> My tremendous module
+> My badass module
 
-See [example-module_cli](https://github.com/user/rust-example-module_cli) CLI for this module.
+See [example-module-cli](https://github.com/user/rust-example-module-cli) CLI for this module.
 
 ## Example
 
