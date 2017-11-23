@@ -54,18 +54,13 @@ module.exports = class extends Generator {
         filter: x => normalizeUrl(x)
       }
     ]).then(props => {
-      const repoName = utils.repoName(props.moduleName);
-      const appveyorRepoName = utils.repoName(_s.slugify(props.moduleName));
-
       const tpl = {
         moduleName: props.moduleName,
         commandName: props.commandName,
         moduleDescription: props.moduleDescription,
-        camelModuleName: _s.camelize(repoName),
+        camelModuleName: _s.camelize(props.moduleName),
         githubUsername: this.options.org || props.githubUsername,
         directoryName: props.directoryName,
-        repoName,
-        appveyorRepoName,
         name: this.user.git.name(),
         email: this.user.git.email(),
         website: props.website,
