@@ -25,6 +25,11 @@ module.exports = class extends Generator {
         filter: x => utils.underscoredPackageName(x)
       },
       {
+        name: 'directoryName',
+        message: 'What do you want to name your directory?',
+        default: _s.slugify(this.appname)
+      },
+      {
         name: 'commandName',
         message: 'What do you want to name your command?',
         default: _s.slugify(this.appname)
@@ -58,6 +63,7 @@ module.exports = class extends Generator {
         moduleDescription: props.moduleDescription,
         camelModuleName: _s.camelize(repoName),
         githubUsername: this.options.org || props.githubUsername,
+        directoryName: props.directoryName,
         repoName,
         appveyorRepoName,
         name: this.user.git.name(),
